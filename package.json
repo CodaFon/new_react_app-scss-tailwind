@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "minify": "sass --watch public/assets/scss/index.scss public/assets/styles/index.min.css --style compressed",
+    "css": "sass --watch public/assets/scss/index.scss public/assets/styles/index.css --style expanded"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +36,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "postcss": "^8.4.19",
+    "prettier": "^2.8.0",
+    "scss": "^0.2.4",
+    "tailwindcss": "^3.2.4"
   }
 }

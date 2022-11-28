@@ -1,0 +1,8 @@
+{
+	// Make VS Code format files when you save them automatically
+	"editor.formatOnSave": true,
+	"eslint.autoFixOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	}
+}
